@@ -1,0 +1,49 @@
+Map.bin Update Log
+
+_______________________________________________________________________
+Current Version:
+
+Version 1.2
+- Updated Stats of Various Clan Powers as according to 'planned changes.rtf'
+   * Dragon's Strike (SMC Lv75 Bow): Added 10 Constant Physical Damage and 10 Constant Chi Damage.
+   * Flaming Heart (SWC Lv65 Saber): Now inflicts 10 points penalty to Fire Resistance (formerly 5).
+   * The Cobra's Fang (MXC Lv65 UA): Now also inflicts weapon damage to the target.
+   * Blazing Fury Fist (KOH Lv65 UA): HP Cost removed. (originally cost 75 Chi 30 HP, now only 75 Chi)
+   * Freezing Bolt (SSC Lv75 UA): Casting cost changed to 50 Chi 50 HP (from 100 Chi 100 HP).
+   * Endless Wrath (MXC Lv75 UA): Casting cost changed to 50 Chi 50 HP (from 100 Chi 100 HP). Now also inflicts weapon damage to the target.
+   * Earth Destruction (KOH Lv75 UA): Casting cost changed to 50 Chi 50 HP (from 100 Chi 100 HP).
+   * Staff Dance (KOH Lv75 Staff): Duration increased to 10 seconds (from 3).  Casting cost changed to 50 Chi 50 HP (from 180 Chi 100 HP).
+   * Thunderbolt's Strike (SMC Lv75 Staff): Casting cost changed to 50 Chi 50 HP (from 100 Chi 100 HP).
+   * The Triple Effect (SSC Lv75 Sword): Now also inflicts weapon damage to the target.
+   * Soul Destruction (SWC Lv75 Sword): Added 8 Constant Chi damage.
+
+_______________________________________________________________________
+Previous Versions:
+
+Version 1.1
+- Updated stats on all minister and leader pads for all 5 clans.  Changed tooltip colours for these to blue to reflect the improved stats.
+- Updated stats on Berserk Armor (Both Rental Berserk Armor and 'Armor' Berserk Armor)
+- Updated stats on Critical Striker
+- Updated Boundless Fist set effects (this is in actually in setitem.bin and not map.bin, but they will be distributed together)
+- Corrected spelling of all 'Viscious Saber' to 'Vicious Saber'
+- Edited Universal Amulet to show the hidden stats
+- Added the CIB precomped rental weapons back to the file (these seemed to be aborted, so I didn't add them previously)
+- Edited the # of entries value at the top of the file.  I'm not sure if this makes a difference or not, it needs testing with a char with a 
+minister spot (the last entries in the file are clan upgrades).  My hunch is that if the value is too low, it doesn't process the rest of the entries 
+once it hits that number.  The problem is, does anything happen if the number is too high?  I'm not counting every entry to see if it's correct.
+
+Version 1.02
+This version was/is available for download on my forum in the news post on RSK stat changes, but it seems like 
+nobody downloaded it.
+- Corrected the Persian Armor tooltip to have the correct stats
+- Updated Razing Storm Kick stats to the new stats
+- Changed Claw Bracer and Claw Bracer Demo icons to the real claw bracer icon (WCB not changed, although it has the same icon).
+
+Version 1.01
+Privately Released.
+- Added the effect descriptions of CIB created items in evaluate.  I forgot this in the first version I made.
+
+Version 1.0
+This is the version that was on the main pso/fwo site as a manual patch.  It adds back most of the CIB created items 
+that were missing from the version that came with 1.3.
+
